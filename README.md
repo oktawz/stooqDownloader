@@ -4,6 +4,7 @@ Uruchamia ściąganie danych ze stooq.pl
 # I. Co znajduje się w tym repozytorium
 1. Katalog StooqDownloader -Kod w C# dla projektu StooqDownloader - główny plik solucji to StooqDownloader.sln
 2. Katalog app - **Aplikacja StooqDownloader (64 bitowa) opublikowana w folderze app**
+3. Plik tickers.csv - przykładowy plik tickerów.
 
 # II. Aby ściągnąć dane przy pomocy aplikacji StooqDownloader należy:
 1. Wejść do folderu aplikacji i otworzyć plik appsettings.json
