@@ -7,7 +7,7 @@ Uruchamia ściąganie danych ze stooq.pl
 3. Plik tickers.csv - przykładowy plik tickerów.
 
 # II. Aby ściągnąć dane przy pomocy aplikacji StooqDownloader należy:
-1. Ściągnąć
+1. Ściągnąć repozytorium klikając na przycisk 'Clone or download' - jeżeli kogoś nie interesuje kod to wystarczy że wypakuje katalog app.
 1. Zainstalować ASP.NET Core Runtime 2.2.8 (niestety w tej wersji to niezbędne) - ściągnąć instalator spod adresu https://dotnet.microsoft.com/download/dotnet-core/thank-you/runtime-aspnetcore-2.2.8-windows-hosting-bundle-installer
 2. Wejść do folderu aplikacji i otworzyć plik appsettings.json
 3. W pliku appssetings.json zmienić wartości parametrów:
