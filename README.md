@@ -8,6 +8,7 @@ Uruchamia ściąganie danych ze stooq.pl
 
 # II. Aby ściągnąć dane przy pomocy aplikacji StooqDownloader należy:
 1. Wejść do folderu aplikacji i otworzyć plik appsettings.json
+2. Zainstalować ASP.NET Core Runtime 2.2.8 - niestety w tej wersji to niezbędne.
 2. W pliku appssetings.json zmienić wartości parametrów:
     - destDir - ścieżka do folderu, do którego będą kopiowane pliki z danymi. W tej wersji aplikacji podajemy ścieżki z dwoma        backsleshami np. C:\\\\amibroker\\\\tickers\\\\
     - tickersFile - ścieżka do pliku, w którym znajdują się definicje tickerów. Definicje tickerów są w tym pliku oddzielone przecinkami. Przykładowa zawartość pliku: KGH,JSW (plik dla dwóch tickerów). W podstawowych testach wyszło mi że można ściągnąć dane dla 100 tickerów, przy większej ilości do pliku może zostać wpisane "Przekroczony dzienny limit wywolan".
